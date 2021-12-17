@@ -1,0 +1,26 @@
+
+.main-home {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    }
+.wrapper {
+      height: 100%;
+      display: grid;
+      gap: 5px;
+      padding: 10px;
+    }    
+.welcome {
+  margin-top:30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}    
+.welcome h1{
+    font-size:50px;
+    color:wheat;
+
+}
+    

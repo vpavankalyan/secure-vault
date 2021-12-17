@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card-body {
+  font-family: Oxygen, sans-serif;
+
+
+}
+
+.card {
+  overflow: hidden;
+  padding: 1px;
+  margin: 5px;
+  box-shadow: 0 2px 20px #3a5594;
+  border-radius: 0.2rem;
+  display: flex;
+  background: radial-gradient(
+    ellipse at right top,
+    #73079e,
+    #0d0236,
+    #462553
+  );
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;}
+.card__title {
+    padding: 5px;
+    color: wheat;
+   
+  }
+
+.card__description {
+    color: rgb(202, 188, 163);
+  }
+.card:hover {
+    transform: scale(1.01);
+  }
+.Link{
+  text-decoration: none;
+  
+}
+.Link:hover{
+  text-decoration: none;
+  
+}
+

@@ -1,0 +1,318 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #603bbb;
+  margin-top: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+button:hover {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #600b75;
+  margin-top: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background:rgba(128, 150, 250, 0.8);
+  display: flex;
+}
+
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    #2160de,
+    #0a0a0a,
+    #2160de
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+.login .loginContainer h1 {
+  color:wheat;
+  font-size:34px;
+  margin-bottom: 70px;
+}
+.input-container h1 {
+  color:wheat;
+  font-size:15px;
+}
+.input-container{
+  margin:10px;
+  margin:auto;
+  padding: 30px;
+  width: 60%;
+  display: grid;
+  /*background-color: #fffe77af;*/
+  background: radial-gradient(
+    ellipse at right top,
+    #480961,
+    #1f1525,
+    #480961
+  );
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.5);
+}
+.decrypt-container h1 {
+  color:wheat;
+  font-size:15px;
+}
+.decrypt-container{
+  padding: 10px;
+  width: 100%;
+  background-color:#3a2b58;
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.8);
+}
+.input-container button{
+  border: 10px;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background: #2d45b3;
+  margin-top: 20px;
+  margin: 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.input-container button:hover{
+  border: 10px;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background: #1951ca;
+  margin-top: 20px;
+  margin: 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.decrypt-container button{
+  border: 10px;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background: #2d45b3;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.decrypt-container button:hover{
+  border: 10px;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background: #1951ca;
+  margin-top: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+.pwd-container {
+  position: relative;
+  width: 100%;
+}
+.pwd-containerh{
+  position: relative;
+  width: 100%;
+  visibility: hidden;
+}
+.input-container input{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+.decrypt-container input{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+ 
+.pwd-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 10px;
+  top: 20px;
+}
+.pwd-containerh input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+.pwd-containerh img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 10px;
+  top: 20px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  margin-bottom:20px;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+.input-container .Msg {
+  color: rgb(13, 233, 24);
+  font-size: 16px;
+}
+.input-container .Error {
+  color: red;
+  font-size: 16px;
+}
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    #a9bbe0,
+    #670e9b,
+    #021f58
+  );
+}

@@ -1,0 +1,46 @@
+.nav {
+    background: #2160de;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav button {
+    width: 86px;
+    padding: 8px 0;
+    color: black;
+    
+    background: rgb(250, 165, 7);
+  }
+  .nav button:hover {
+    width: 86px;
+    padding: 8px 0;
+    color: wheat;
+    background: #fc1404;
+  }
+  .nav h1 {
+    color: white;
+  }
+  .nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap:20px;
+    list-style:none;
+    text-align: center;
+    width:70vw;
+    justify-content:end;
+    margin-right: 2rem;
+    
+  }
+  .navlinks{
+      color: wheat;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      
+  }
+  .navlinks:hover{
+    color: white;  
+    background: #382ce9;
+    border-radius: 5px;
+  }
