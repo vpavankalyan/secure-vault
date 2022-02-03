@@ -4,7 +4,7 @@ we are encrypting(using AES cipher) everything in app, if you want to see the or
 info first by filling the key(which is stored securely directly after hashing using SHA-256 at client's side)  
 You should remember this key there is no changing key option. If you forgot this key, your info will be list. Because we are not storing key directly.
 
-You can check out our project here: [Secure Vault]{https://secure-vault-63gri1w75-shashankraju03.vercel.app/}
+You can check out our project here: [Secure Vault](https://secure-vault-63gri1w75-shashankraju03.vercel.app/)
 
 
 In the project directory, you should run the following two commands:  
