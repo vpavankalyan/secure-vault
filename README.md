@@ -1,4 +1,9 @@
 # Secure Vault APP 
+
+Contributors:
+Dasari Jayanth
+Satya Pavan Kalyan Vemula
+Shashank Raju
 In this project, we created a react app where we can store any personal or sensitive information securely  
 we are encrypting(using AES cipher) everything in app, if you want to see the original information you have to decrypt the
 info first by filling the key(which is stored securely directly after hashing using SHA-256 at client's side)  
